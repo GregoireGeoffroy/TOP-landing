@@ -1,0 +1,135 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.text-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cards-section {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.cards-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.quote-section {
+    width: 100%;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.cta-section {
+    width: 100%;
+    padding: 50px;
+    background-color: #007bff;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
