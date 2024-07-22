@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
 header {
     width: 100%;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,19 +18,21 @@ header {
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    color: #F9FAF8;
 }
 
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
+    color: #F9FAF8;
 }
 
 .container {
     display: flex;
     align-items: center;
     padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .text-section {
@@ -38,19 +40,21 @@ nav a {
 }
 
 .text-section h1 {
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
 .text-section p {
     font-size: 18px;
+    color: #E5E7EB;
     margin-bottom: 20px;
 }
 
 .text-section button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #3882F6;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -69,8 +73,10 @@ nav a {
 }
 
 .cards-section h2 {
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 800;
     margin-bottom: 30px;
+    color: #1F2937;
 }
 
 .cards {
@@ -98,16 +104,18 @@ nav a {
 .quote-section {
     width: 100%;
     padding: 50px;
-    background-color: #fff;
+    background-color: #E5E7EB;
     text-align: center;
     font-style: italic;
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
 }
 
 .cta-section {
     width: 100%;
     padding: 50px;
-    background-color: #007bff;
+    background-color: #3882F6;
     text-align: center;
     color: #fff;
 }
@@ -121,7 +129,7 @@ nav a {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #fff;
-    color: #007bff;
+    color: #3882F6;
     border: none;
     cursor: pointer;
 }
@@ -129,7 +137,7 @@ nav a {
 footer {
     width: 100%;
     padding: 20px;
-    background-color: #333;
+    background-color: #1F2937;
     text-align: center;
-    color: #fff;
+    color: #F9FAF8;
 }
